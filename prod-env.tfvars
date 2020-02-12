@@ -5,7 +5,9 @@
 */
 region="${var.region}"
 
+/* Windows */
 credentials="C:\\Users\\username\\.aws\\credentials"
+/* MacOs */
 profile="default"
 
 
