@@ -3,9 +3,9 @@
 >terraform plan -var-file="prod-env.tfvars" -out prod-network.tfplan
 >terraform apply -auto-aprove -var-file="prod-env.tfvars"
 */
-region="us-east-1"
+region="${var.region}"
 
-credentials="C:\\Users\\e1208991\\.aws\\credentials"
+credentials="C:\\Users\\username\\.aws\\credentials"
 profile="default"
 
 
